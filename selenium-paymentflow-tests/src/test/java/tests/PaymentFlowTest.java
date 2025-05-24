@@ -31,7 +31,7 @@ public class PaymentFlowTest {
         home.addToCart();
         cart.proceedToCheckout();
 
-        coupon.applyCoupon("DISCOUNT10"); // <-- applying coupon here
+        coupon.applyCoupon("DISCOUNT10");
 
         payment.enterPaymentDetails("4111 1111 1111 1111", "12/25", "123");
         payment.submitPayment();
