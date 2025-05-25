@@ -66,7 +66,7 @@ Make sure you have the following installed:
 
 - The application under test simulates a Lazada-like e-commerce flow, but is not connected to any real production systems.
 
-- Selenium tests are UI-level only and do not process real payments or call external payment gateways.
+- Test scriptes are sample only and do not process real payments or call external payment gateways.
 
 
 
